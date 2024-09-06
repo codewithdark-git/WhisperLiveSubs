@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "WhisperLiveSubs"
+version = "0.1.0"
+description = ""
+authors = ["Dark Coder <codewithdark90@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.38.0"
+sounddevice = "^0.5.0"
+numpy = "^2.1.1"
+scipy = "^1.14.1"
+torch = "^2.4.1"
+transformers = "^4.44.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
